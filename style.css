@@ -1,0 +1,97 @@
+:root {
+    --background-color: #141414;
+    --text-color: #8f7139;
+    --text-color-secondary: #ebd6b6;
+    --text-color-hover: #bb9144;
+}
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 5vh;
+    background-color: #000000a1;
+}
+
+.navBar ul, li, a {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navBar a {
+    color: var(--text-color);
+    font-family: 'Poppins';
+}
+
+.navBar a:hover {
+    color: var(--text-color-hover);
+}
+
+.quick-job-offers {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: var(--text-color);
+    
+}
+
+.job-offer-sub-text { 
+    text-align: center;
+    margin-top: -25px;
+    font-family: 'Poppins';
+    color: white;
+}
+
+.job-offer-sub-text a {
+    display: inline;
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 400px;
+}
+
+.card {
+    flex: 0 1 300px;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-color: rgb(37, 37, 37);
+}
+
+.job-title  {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.job-title-sub-text {
+    text-align: center;
+    font-family: 'Poppins';
+    color: var(--text-color-secondary);
+}
+
